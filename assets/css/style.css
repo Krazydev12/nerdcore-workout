@@ -1,0 +1,8 @@
+body {
+    background: url(images/quarantine-yoga-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 57rem;
+    /* bottom: auto; */
+  }
