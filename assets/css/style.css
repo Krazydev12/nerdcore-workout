@@ -1,18 +1,15 @@
-#jumbo{
-   background-color: #a3a3a3;
-   text-align: center;
-  }
-  
-  #left{
-    background-color: #a384b3;
-  }
-#right {
-    background-color: #c72e2e;
-
-    }
-
-footer{
+footer {
   background-color: #a3a3a3;
   text-align: center;
-
+  position: sticky;
+}
+#jumbo {
+   background-color: #a3a3a3;
+   text-align: center;
+}
+#left {
+    background-color: #a384b3;
+}
+#right {
+    background-color: #c72e2e;
 }
