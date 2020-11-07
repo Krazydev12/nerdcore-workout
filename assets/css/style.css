@@ -1,15 +1,53 @@
-footer {
-  background-color: #a3a3a3;
-  text-align: center;
-  position: sticky;
+body {
+	background: url(images/gaming-pattern.png);
+	background-position: center;
+	background-size: contain;
 }
-#jumbo {
-   background-color: #a3a3a3;
-   text-align: center;
+header {
+    background-color: #a3a3a3;
+    font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
+    padding: 1%;
+    text-align: center;
+}
+footer {
+	background-color: #a3a3a3 !important;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+a {
+	color: #c72e2e !important;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	color: black;
+	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif !important;
+	font-size: 22px;
+}
+.container {
+    background-color: #a3a3a3;
+}
+#left, #right, #center {
+    padding: 2%;
 }
 #left {
-    background-color: #a384b3;
+	background-color: #a384b3;
+	border-radius: 5px;
 }
 #right {
-    background-color: #c72e2e;
+	background-color: #c72e2e;
+	border-radius: 5px;
+}
+#center {
+    background-color: #ffffff
+    /* border: black solid 2px; */
+    /* border-radius: 5px; */
+}
+#copyright {
+	background-color: #cac9c9;
 }
