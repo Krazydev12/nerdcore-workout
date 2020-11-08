@@ -3,7 +3,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 49rem;
+    margin: 50rem;
 }
-
+#title {
+    left: 50%;
+    position: absolute;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 10px;
+    color: white;
+    width: 40%;
+    text-align: center;
+    border-radius: 8px;
+    opacity: 60%;
+}
 
