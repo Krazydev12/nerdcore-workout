@@ -7,7 +7,7 @@ req.query({
 });
 
 req.headers({
-    "x-rapidapi-key": "47597a0f1amsh4c6d796c707295ap1c950cjsndad9ba7fb44c",
+    "x-rapidapi-key": "",
     "x-rapidapi-host": "quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com",
     "useQueryString": true
 });
@@ -18,3 +18,27 @@ req.end(function (res) {
 
     console.log(res.body);
 });
+
+
+
+var unirest = require("unirest");
+
+var req = unirest("GET", "https://edamam-recipe-search.p.rapidapi.com/search");
+
+req.query({
+    "q": "cucumber"
+});
+
+req.headers({
+    "x-rapidapi-key": "",
+    "x-rapidapi-host": "edamam-recipe-search.p.rapidapi.com",
+    "useQueryString": true
+});
+
+
+req.end(function (res) {
+    if (res.error) throw new Error(res.error);
+
+    console.log(res.body);
+});
+
