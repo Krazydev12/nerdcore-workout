@@ -13,7 +13,7 @@ THEN I am given an energizing workout routine combining the two choices
 - https://rapidapi.com/edamam/api/recipe-search-and-diet/endpoints
 
 ## Developers:
-Ricardo Granados: YouTube playlists, presets
-Haley Alton: Spotify playlists, mock ups, APIs, presets
-Jennifer Mitzman: Spotify playlists, mock ups, styling, presets
-Devon Leardini: Base HTML, styling
+- Ricardo Granados: YouTube playlists, styling, presets
+- Haley Alton: Spotify playlists, styling, mock ups, APIs, presets
+- Jennifer Mitzman: Spotify playlists, mock ups, styling, presets
+- Devon Leardini: Base HTML, styling, navbar
