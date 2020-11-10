@@ -9,7 +9,6 @@ WHEN I pick a workout routine and a piece of video game music
 THEN I am given an energizing workout routine combining the two choices
 
 ## APIs
-- https://rapidapi.com/ipworld/api/quotes-inspirational-quotes-motivational-quotes/endpoints
 - https://rapidapi.com/edamam/api/recipe-search-and-diet/endpoints
 
 ## Developers:
