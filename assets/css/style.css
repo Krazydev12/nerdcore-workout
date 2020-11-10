@@ -1,22 +1,25 @@
 body {
 	background: url(images/gaming-pattern.png);
 	background-position: center;
-	background-size: contain;
+    background-size: auto;
 }
 header {
     background-color: #a3a3a3;
-    font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 3%;
     padding: 1%;
     text-align: center;
+    font-size: 18px;
+}
+iframe {
+    align-items: center;
+}
+h1 {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
 }
 footer {
 	background-color: #a3a3a3 !important;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    text-align: center;   
 }
 a {
 	color: #c72e2e !important;
@@ -24,24 +27,26 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-p {
+#dev {
 	color: black;
-	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif !important;
+	font-family: 'Press Start 2P', Arial, Helvetica, sans-serif !important;
 	font-size: 22px;
-}
-.container {
-    background-color: #a3a3a3;
 }
 #left, #right, #center {
     padding: 2%;
 }
 #left {
-	background-color: #a384b3;
-	border-radius: 5px;
+    background-color: #a384b3;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 32.5rem;
 }
 #right {
-	background-color: #c72e2e;
-	border-radius: 5px;
+    background-color: #c72e2e;
+    border-radius: 5px;
+    color: white;
+    overflow-y: auto;
+    height: 32.5rem;
 }
 #center {
     background-color: #ffffff
@@ -49,10 +54,22 @@ p {
     /* border-radius: 5px; */
 }
 #copyright {
-	background-color: #cac9c9;
+    background-color: #cac9c9;
 }
 
-#nav{
+#nav {
     background-color:  #a3a3a3;
-    
+}
+.pick {
+    font-size: 16px;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif !important;
+    color: white;
+}
+.pickTitle {
+    font-size: 25px;
+    color: black;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif !important;
+}
+.container {
+    background-color: #a3a3a3;
 }
