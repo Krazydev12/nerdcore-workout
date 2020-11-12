@@ -10,6 +10,7 @@ const settings = {
 		"x-rapidapi-host": "edamam-recipe-search.p.rapidapi.com"
 	}
 };
+
 $.ajax(settings).done(function (response) {
 	console.log(response);
 });
