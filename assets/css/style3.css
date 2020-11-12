@@ -7,20 +7,26 @@ header {
 	text-align: center;
 }
 h1 {
-    font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif; 
+	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 }
 footer {
 	background-color: #a3a3a3 !important;
 	text-align: center;
 }
+input {
+	color: #a384b3 !important;
+}
 a {
 	color: #c72e2e !important;
 }
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 #dev {
 	color: black;
 	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 	font-size: 22px;
+}
+.input-field {
+    border: none !important;
 }
