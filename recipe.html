@@ -23,39 +23,39 @@
     <div class="row">
         <form class="col s4">
             <div class="row">
-                <div class="input-field col s4">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <div class="input-field col s6">
+                    <textarea id="textarea1"></textarea>
                     <label for="textarea1">Textarea</label>
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s4">
-                    <textarea id="textarea2" class="materialize-textarea"></textarea>
+                <div class="input-field col s6">
+                    <textarea id="textarea2"></textarea>
                     <label for="textarea1">Textarea</label>
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s4">
-                    <textarea id="textarea3" class="materialize-textarea"></textarea>
+                <div class="input-field col s6">
+                    <textarea id="textarea3"></textarea>
                     <label for="textarea1">Textarea</label>
                 </div>
             </div>
             <br><br>
             <p>
                 <label>
-                    <input name="group1" type="radio" />
+                    <input name="group1" type="radio">
                     <span>balanced</span>
                 </label>
             </p>
             <p>
                 <label>
-                    <input name="group1" type="radio" />
+                    <input name="group1" type="radio">
                     <span>high-protein</span>
                 </label>
             </p>
             <p>
                 <label>
-                    <input name="group1" type="radio" />
+                    <input name="group1" type="radio">
                     <span>low-carb</span>
                 </label>
             </p>
@@ -82,6 +82,14 @@
         </div>
     </footer>
 
+    <style>
+        [type="radio"]:checked + span:after {
+            border: 2px solid #ef5350;
+        }
+        [type="radio"]:checked + span:after {
+            background-color: #ef5350;
+        }
+    </style>
 
     <!-- jQuery link minified version -->
     <!-- Compiled and minified JavaScript -->
