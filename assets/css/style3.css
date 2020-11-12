@@ -16,6 +16,7 @@ footer {
 input {
 	color: #a384b3 !important;
 }
+
 a {
 	color: #c72e2e !important;
 }
@@ -27,12 +28,6 @@ a:hover {
 	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 	font-size: 22px;
 }
- jsfood
-
-radio {
-	color: rgb(41, 36, 34) ;
-=======
-.input-field {
-    border: none !important;
- main
+#submit {
+    background-color: #a384b3;   
 }
