@@ -1,20 +1,39 @@
-let userInput = document.getElementById("textarea1").textContent;
+// //let userInput = document.getElementById("textarea1").textContent;
 
-const settings = {
-	"async": true,
-	"crossDomain": true,
-	"url": "https://edamam-recipe-search.p.rapidapi.com/search?q=" + userInput + "diet=" + radio,
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-key": "9d3fc1b0e6mshf2a5aae79eb7bb6p179335jsnf7cabbb320b3",
-		"x-rapidapi-host": "edamam-recipe-search.p.rapidapi.com"
-	}
-};
+// //const settings = {
+// 	"async": true,
+// 	"crossDomain": true,
+// 	"url": "https://edamam-recipe-search.p.rapidapi.com/search?q=" + userInput + "diet=" + radio,
+// 	"method": "GET",
+// 	"headers": {
+// 		"x-rapidapi-key": "9d3fc1b0e6mshf2a5aae79eb7bb6p179335jsnf7cabbb320b3",
+// 		"x-rapidapi-host": "edamam-recipe-search.p.rapidapi.com"
+// 	}
+// };
 
-$.ajax(settings).done(function (response) {
-	console.log(response);
+// $.ajax(settings).done(function (response) {
+// 	console.log(response);
+// });
+
+$("#form").submit(function (event) {
+	let userInput = $("#textarea1").val();
+	console.log("input" + userInput);
+	const settings = {
+		"async": true,
+		"crossDomain": true,
+		"url": "https://edamam-recipe-search.p.rapidapi.com/search?q=" + userInput + "&diet=" + "balanced",
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-key": "9d3fc1b0e6mshf2a5aae79eb7bb6p179335jsnf7cabbb320b3",
+			"x-rapidapi-host": "edamam-recipe-search.p.rapidapi.com"
+		}
+	};
+	$.ajax(settings).done(function (response) {
+		console.log(response);
+	});
+
+	event.preventDefault();
 });
-
 
 
 
