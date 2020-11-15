@@ -28,6 +28,22 @@ a:hover {
 	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 	font-size: 22px;
 }
+#results{
+	
+	background-color: crimson;
+	top: 0;
+}
+
+
+radio {
+	color: rgb(41, 36, 34);
+}
+
+.input-field {
+    border: none !important;
+}
+
 #submit {
     background-color: #a384b3;   
 }
+
