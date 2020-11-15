@@ -1,6 +1,6 @@
 https://jenmitz.github.io/nerdcore-workout/
 
-# Nerdout Workout
+# NerdCore Workout
 Taking to consideration the current pandemic, this app aims to motivate people who haven’t worked out before - or who have stopped working out - to start working out; listening to nostalgic video game music can be a great incentive. This webpage allows the user to pick a workout and a video game music track to workout to.
 
 ## How it works
