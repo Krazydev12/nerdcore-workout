@@ -21,12 +21,18 @@ footer {
 	background-color: #a3a3a3 !important;
     text-align: center;   
 }
-a {
-	color: #c72e2e !important;
+a { 
+    color:#C72E2E !important;  
 }
-a:hover {
-	text-decoration: underline;
+.yt:hover {
+    font-size: 18px;
+    font-style: oblique;
+    text-shadow:2px 2px rgb(0, 0, 0);
 }
+.names:hover {
+    text-decoration: underline;
+}
+
 #dev {
 	color: black;
 	font-family: 'Press Start 2P', Arial, Helvetica, sans-serif !important;
@@ -37,13 +43,11 @@ a:hover {
 }
 #left {
     background-color: #a384b3;
-    border-radius: 5px;
     overflow-y: auto;
     height: 32.5rem;
 }
 #right {
     background-color: #c72e2e;
-    border-radius: 5px;
     color: white;
     overflow-y: auto;
     height: 32.5rem;
