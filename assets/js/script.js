@@ -35,9 +35,6 @@ $("#form").submit(function (event) {
 	event.preventDefault();
 });
 
-// for (i = 0; i <= json.length; i++) {
-// 	var data1 = json.ETA, data2 = json.MMSI;
-$('#results').append("cucumber");
 
 
 
@@ -84,5 +81,3 @@ $('#results').append("cucumber");
 
 //     console.log(res.body);
 // });
-
-
