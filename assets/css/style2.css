@@ -3,7 +3,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 50rem;
+	margin: 62rem;
 }
 h1 {
 	font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
@@ -15,6 +15,9 @@ button {
 button:hover {
 	background-color: #EBD54B;
 	border: black 1px solid;
+}
+p {
+    font-size: 20px;
 }
 #title {
 	color: black;
