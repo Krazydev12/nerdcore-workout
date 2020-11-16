@@ -16,23 +16,24 @@
     <header>
         <div class="nav-wrapper">
             <h1>NERDCORE WORKOUT</h1>
-            <a href="main.html">Home</a> | <a href="recipe.html">Recipes</a>
+            <a href="main.html">Daily Grind</a> | <a href="recipe.html">Health</a>
         </div>
     </header>
 
     <div>
-        <p>
-            No adventurer should go hungry! Make sure to heal up and prepare for your next journey by choosing the ingredients you want for a recipe. Gather your friends, sit down by the campfire, and make yourself a great meal.
-        </p>
+        <div class="row">
+            <p id="description">
+                No adventurer should go hungry! Make sure to heal up and prepare for your next journey by choosing the ingredients you want for a recipe. Gather your friends, sit down by the campfire, and make yourself a great meal.
+            </p>
+        </div>
     </div>
 
     <div class="row">
-        <form id="form" class="col s4">
+        <form id="form" class="col s5">
             <!-- ingredient inputs -->
             <div class="row">
                 <div class="input-field col s4">
-                    <textarea id="textarea1"></textarea>
-                    <label for="textarea1">Ingredient 1</label>
+                    <input id="textarea1" type="text" placeholder="Ingredient 1">
                 </div>
             </div>
 
@@ -75,13 +76,24 @@
                 <i class="material-icons">Search</i>
             </button>
         </form>
-
-        <div class="col s8">
-            <div id="recipes">skgbkjb</div>
-            <!-- <div id="results">
-                <h1>THIS IS TEXT HAHAHAHA</h1>
-            </div> -->
+        
+        <row>
+        <div class="col s7">
+            <table class="table">
+                <tbody>
+                    <tr><a id="recipe1" href="#"></a></tr>
+                    <br>
+                    <tr><a id="recipe2" href="#"></a></tr>
+                    <br>
+                    <tr><a id="recipe3" href="#"></a></tr>
+                    <br>
+                    <tr><a id="recipe4" href="#"></a></tr>
+                    <br>
+                    <tr><a id="recipe5" href="#"></a></tr>
+                </tbody>
+            </table>
         </div>
+        </row>
 
     </div>
 
@@ -89,7 +101,6 @@
 
     <footer class="page-footer">
         <div class="container">
-
             <div class="row">
                 <div class="col l8 offset-l2 s12">
                     <p id="dev">Developers</p>

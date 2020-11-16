@@ -41,6 +41,9 @@ a {
 #left, #right, #center {
     padding: 2%;
 }
+#left, #right {
+    border-radius: 7px;
+}
 #left {
     background-color: #a384b3;
     overflow-y: auto;
