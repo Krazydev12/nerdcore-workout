@@ -20,10 +20,15 @@
         </div>
     </header>
 
+    <div>
+        <p>
+            No adventurer should go hungry! Make sure to heal up and prepare for your next journey by choosing the ingredients you want for a recipe. Gather your friends, sit down by the campfire, and make yourself a great meal.
+        </p>
+    </div>
 
     <div class="row">
         <form id="form" class="col s4">
-
+            <!-- ingredient inputs -->
             <div class="row">
                 <div class="input-field col s4">
                     <textarea id="textarea1"></textarea>
@@ -31,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="input-field col s4">
                     <textarea id="textarea2"></textarea>
                     <label for="textarea1"> Ingredient 2</label>
@@ -43,10 +48,11 @@
                     <textarea id="textarea3"></textarea>
                     <label for="textarea1"> Ingredient 3</label>
                 </div>
-            </div>
+            </div> -->
 
             <br><br>
-            <p>
+            <!-- radio buttons -->
+            <!-- <p>
                 <label>
                     <input name="group1" type="radio">
                     <span>balanced</span>
@@ -63,7 +69,7 @@
                     <input name="group1" type="radio">
                     <span>low-carb</span>
                 </label>
-            </p>
+            </p> -->
 
             <button class="btn waves-effect waves-light" id="submit" type="submit" name="action">
                 <i class="material-icons">Search</i>
@@ -71,10 +77,12 @@
         </form>
 
         <div class="col s8">
-            <div id="results">
+            <div id="recipes"></div>
+            <!-- <div id="results">
                 <h1>THIS IS TEXT HAHAHAHA</h1>
-            </div>
+            </div> -->
         </div>
+
     </div>
 
     <br>
@@ -111,7 +119,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="/assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

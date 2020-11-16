@@ -33,17 +33,11 @@ a:hover {
 	background-color: crimson;
 	top: 0;
 }
-
-
-radio {
-	color: rgb(41, 36, 34);
+#submit {
+    background-color: #a384b3;   
 }
-
 .input-field {
     border: none !important;
 }
 
-#submit {
-    background-color: #a384b3;   
-}
 
