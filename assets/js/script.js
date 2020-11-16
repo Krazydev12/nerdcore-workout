@@ -16,7 +16,7 @@
 // });
 console.log("haha");
 
-let main = $("#form").submit(function (event) {
+$("#form").submit(function (event) {
 	let userInput = $("#textarea1").val();
 	console.log("input" + userInput);
 	const settings = {
@@ -32,16 +32,19 @@ let main = $("#form").submit(function (event) {
     
     event.preventDefault();
     
-    hello.forEach(element => {
-        $.ajax(settings).then(function (response) {
-            const test = JSON.stringify(response.hits.recipe.url);
-            let hello = response.hits;
-            // print out to this
-            // document.getElementById("results").textContent = JSON.stringify(response.hits);
+
+    // work on footer goddamnit
+    // research syntax - for loops objects in arrays (INDEX IS NEEDED)
+    // how to assign results of ajax call as a variable?
+    $.ajax(settings).then(function (response) {
+        let arr = response.hits[0].recipe.url;
+        for (i = 0; i < arr.length; i++) {
+            let test = (response.hits[0].recipe.url);
             document.getElementById("recipes").textContent = test;
             console.log(response.hits)
-        });
+        };
     });
+    
 });
 
 
